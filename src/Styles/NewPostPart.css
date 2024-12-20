@@ -1,0 +1,13 @@
+.menu2{
+    font-size: 40px !important;
+}
+@media(min-width:610px){
+    .menu2{
+        display: none !important;
+    }
+}
+@media(min-width:850px){
+    .trend{
+        display: none;
+    }
+}

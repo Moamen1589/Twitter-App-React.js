@@ -1,0 +1,65 @@
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  max-width: 100% !important;
+  height: max-content;
+  background-color: #000 !important;
+  border: 1px solid #6b7280;
+  color: #fff !important;
+  display: flex;
+  flex-direction: column
+}
+
+@media(min-width:1070px) {
+  .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    max-width: 100% !important
+  }
+}
+
+.css-83ijpv-MuiTypography-root,
+.stat svg {
+  color: #777 !important
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root img:not(.MuiAvatar-img) {
+  width: 500px;
+  margin-left: 30px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px
+}
+
+.MuiCardHeader-content span {
+  width: fit-content;
+  display: inline;
+  margin-right: 10px
+}
+
+.MuiCardHeader-content span:first-of-type {
+  font-weight: 700
+}
+
+.stat {
+  background-color: #000 !important
+}
+
+.css-18z28tp {
+  height: 150px;
+  flex: 1
+}
+
+textarea:focus {
+  box-shadow: unset
+}
+
+@media(max-width:850px) {
+
+  .post,
+  .post img {
+    max-width: 100% !important
+  }
+
+  .post img {
+    margin-left: 10px !important
+  }
+}

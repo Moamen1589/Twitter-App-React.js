@@ -19,7 +19,7 @@ function Post(props) {
     };
 
     return (
-        <Card sx={{ maxWidth: 345 }} className='post'>
+        <Card  className='post'>
             <CardHeader
                 avatar={
                     props.avatar ? (

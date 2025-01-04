@@ -12,15 +12,17 @@ A responsive and modern Twitter clone built using React.js and Tailwind CSS, dep
 
  React Fundamentals Used:
 
-Components: Modular, reusable building blocks of the UI.
-JSX: Syntax extension for writing React elements.
-Props: Passing dynamic data between components.
-State Management: Using useState to handle component state.
-Event Handling: Managing user interactions with event listeners.
-Hooks: Leveraging useEffect for side effects and lifecycle events.
-Conditional Rendering: Dynamically rendering UI based on state or props.
-List Rendering: Efficiently rendering lists with the .map() method.
-Navigation: Using useNavigate from React Router for seamless page transitions.
+
+- Components: Modular, reusable building blocks of the UI.  
+- JSX: Syntax extension for writing React elements.  
+- Props: Passing dynamic data between components.  
+- State Management: Using useState to handle component state.  
+- Event Handling: Managing user interactions with event listeners.  
+- Hooks: Leveraging useEffect for side effects and lifecycle events.  
+- Conditional Rendering: Dynamically rendering UI based on state or props.  
+- List Rendering: Efficiently rendering lists with the .map() method.  
+- Navigation: Using useNavigate from React Router for seamless page transitions.  
+
 
 Before Start 
 install Node Modules

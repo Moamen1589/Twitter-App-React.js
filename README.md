@@ -9,15 +9,7 @@ This is a React-based application designed to replicate core features of Twitter
 
 ## Tech Stack
 - **Frontend**: React.js, Tailwind CSS
-- **State Management**: React Context API (if applicable)
-- **Deployment**: (Add deployment platform, e.g., Vercel, Netlify, or others)
 
-## Installation and Setup
-Follow these steps to install and run the project locally:
-
-### Prerequisites
-- Node.js and npm (or yarn) installed on your system.
-- A terminal or code editor with a built-in terminal (e.g., VS Code).
 
 ### Steps
 1. **Clone the Repository**:
@@ -68,15 +60,6 @@ Follow these steps to install and run the project locally:
   - **/assets**: Images and other static assets.
   - **/styles**: Tailwind CSS configurations and custom styles.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this project.
 
-## Live Demo
-(If deployed, add the live demo link here. For example, on Vercel or Netlify.)
-
-## Acknowledgments
-Special thanks to the contributors and open-source libraries used in this project.
 

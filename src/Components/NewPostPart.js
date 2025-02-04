@@ -26,13 +26,12 @@ function NewPostPart() {
     };
 
     const handlePost = () => {
-
         console.log({ media, postContent })
         if (window.localStorage.getItem('post')) {
             let posts = JSON.parse(window.localStorage.getItem('post'))
             posts.push({ media, postContent })
             window.localStorage.setItem('post', JSON.stringify(posts))
-
+            window.location.reload()
         }
         if (!window.localStorage.getItem('post')) {
             let post = [{ media, postContent }]

@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import Swal from 'sweetalert2';
 function SignUpForm() {
   const navigate = useNavigate();
   const [username, setUserName] = useState('');
@@ -38,12 +38,25 @@ function SignUpForm() {
   // Handle validation and saving data
   const handleValidation = () => {
     if (!username || !password || !phoneNumber || !photo) {
-      alert('Please fill in all fields!');
+      Swal.fire({
+        titleText: 'Please Fill Out All Fields',
+        background: 'black',
+        color: 'white',
+        confirmButtonColor: '#1976d2',
+      })
     } else {
-    
-      const data = { username, phoneNumber, photo };
-      window.localStorage.setItem('data', JSON.stringify(data));
-      navigate('/', { state: { username, password } });
+   Swal.fire({
+        titleText: 'Sign Up Successfully',
+        background: 'black',
+        color: 'white',
+        confirmButtonColor: '#1976d2',
+      }).then((submit) => {
+        if (submit.isConfirmed) {
+          const data = { username, phoneNumber, photo };
+          window.localStorage.setItem('data', JSON.stringify(data));
+          navigate('/', { state: { username, password } });
+        }
+      })
     }
   };
 
